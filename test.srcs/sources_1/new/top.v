@@ -26,6 +26,7 @@ input b,
 output [1:0] c
     );
  reg d = 3;
+ reg e = 4;
  assign c={a&b,a^b};
  
 endmodule
