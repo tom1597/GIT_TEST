@@ -23,7 +23,7 @@
 module top(
 input a,
 input b,
-output c
+output [1:0] c
     );
- assign c=a+b;
+ assign c={a&b,a^b};
 endmodule
